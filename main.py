@@ -33,9 +33,9 @@ class TikTok:
 
     def close(self, message):
         print(f'\n{message}')
-        os.system('title [TikTok Shares Botter] - Restart required')
-        os.system('pause >NUL')
-        os.system('title [TikTok Shares Botter] - Exiting...')
+        print('[TikTok Shares Botter] - Restart required')
+        sleep(5)
+        print('[TikTok Shares Botter] - Exiting...')
         sleep(3)
         os._exit(0)
 
@@ -60,14 +60,14 @@ class TikTok:
                     (time() - self.start_time) / self.added * (self.amount - self.added)
                 )
             )
-            os.system(
-                f'title [TikTok Shares Botter] - Added: {self.added}/{self.amount} '
+            print(
+                f'[TikTok Shares Botter] - Added: {self.added}/{self.amount} '
                 f'({round(((self.added / self.amount) * 100), 3)}%) ^| Active Threads: '
-                f'{threading.active_count()} ^| Time Remaining: {time_remaining}'
+                f'{threading.active_count()} ^| Time Remaining: {time_remaining}', end='\r'
             )
             sleep(0.2)
-        os.system(
-            f'title [TikTok Shares Botter] - Added: {self.added}/{self.amount} '
+        print(
+            f'[TikTok Shares Botter] - Added: {self.added}/{self.amount} '
             f'({round(((self.added / self.amount) * 100), 3)}%) ^| Active Threads: '
             f'{threading.active_count()} ^| Time Remaining: 00:00:00'
         )
@@ -112,12 +112,12 @@ class TikTok:
                     threading.Thread(target=self.bot).start()
                     break
 
-        os.system('pause >NUL')
-        os.system('title [TikTok Shares Botter] - Exiting...')
+        sleep(5)
+        print('[TikTok Shares Botter] - Exiting...')
         sleep(3)
 
 
 if __name__ == '__main__':
-    os.system('cls && title [TikTok Shares Botter]')
+    print('[TikTok Shares Botter]')
     main = TikTok()
     main.start()
