@@ -18,7 +18,7 @@ This tool was originally created by zoony1337. I have modified it to be cross-pl
 ### Windows
 a. Go to https://www.python.org/downloads/ and download the latest Python 3.x.  
 b. Follow the installers instructions.  
-c. Click the green "Clone" button and click "Download ZIP"  
+c. Click the green "Code" button and click "Download ZIP"  
 d. Navigate to the download and extract the zip file.  
 e. Double click on setup.py.  
 f. Double click on main.py.  
@@ -27,7 +27,7 @@ f. Double click on main.py.
 a. Go to https://www.python.org/downloads/ and download the latest Python 3.x.  
 b. Follow the installers instructions.  
 NOTE: Mac OS comes preinstalled with an OLDER Python installation (Python 2.7) and will NOT work. Installing Python 3.x will install it alongside the Python 2.7 that is included with Mac OS and you must run it with 'python3' from the terminal.  
-c. Click the green "Clone" button and click "Download ZIP"  
+c. Click the green "Code" button and click "Download ZIP"  
 d. Navigate to the download and extract the zip file.  
 e. Double click on setup.py.  
 f. Double click on main.py.  
