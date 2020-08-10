@@ -41,7 +41,7 @@ f. Double click on main.py.
 
 2. Enter the amount of desired Shares.  
 3. Paste a TikTok video URL — e.g. https://www.tiktok.com/@username/video/1234567891234567891 (if it has a whole bunch of stuff after the numbers than just remove everything after the numbers, this will be programmed to be parsed out in a later release)  
-4. All set!
+4. All set! Go make some popcorn and kick back!
 
 ## Legal Notice
 This is illegal if you use it without the consent of the creators — in this case, the TikTok team. I am not accountable for any of your actions; this was merely a speedrun to demonstrate how botters work. Please do not misuse this tool.
