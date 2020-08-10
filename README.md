@@ -16,7 +16,7 @@ This tool was originally created by zoony1337. I have modified it to be cross-pl
 1. Download Python and run the program:
 
 ### Windows
-a. Go to https://www.python.org/downloads/ and download the latest Python 3.x.
+a. Go to https://www.python.org/downloads/ and download the latest Python 3.x.  
 b. Follow the installers instructions.
 c. Navigate to the download and extract the zip file.
 d. Double click on setup.py.
